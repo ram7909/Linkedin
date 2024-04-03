@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media1.css">
+</head>
+
+<body>
+    <div class="linkedin">
+        <div class="nav">
+            <div class="img">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEUAfrv///8AdbcAd7gAeLioyODX5vHF2uq10OXB2OkAfLoAcbUAerkAc7b7/f7y9/tFk8Uehb9sps54rNJVmsnm8PaDs9WWvdoxi8Gfw92OudjP4O70+Ps7j8Ndnsvh7PQmh78AaLFjosxY5DW2AAAGLUlEQVR4nO2d6XaiMBhAySJIEmQXce30/R9yQGuLiCYtiSY53/035wxj7mTfvgTojjRuiiwPXCPPiiZO73WC0Z/37YZjKhh7d4J/DWOCYr5px5K3hnXBqXtuQxjlRf3QcFVy8e4UakDwcjVtGFH67sRpgtJoynDN3S6fQxhf3xtW5N3J0gqpxoaZLyX0Cs1uDSvfBDvFami49quIXiDrH8OIvzs1RuDR1XDleC//CEZXX4alf5XwAi0vhrWfZbSH12fDwoeh2jSi6A1Tf7Owy8R9Z9j6Wgt7aNsZbvxsSC+wDQq8LqRdMU2DGL87EUbBcdD4XA27itgEHvcVPaIIMp8bmq6pyYLcc0P3lkUBAADch1GCOwj1c5wgSJJtl7sw3C2bI8beSQpexcM9nV3BvRrSsuR4QiPSMvFnQCRYNPbrOW18yUaSraYE+5XI5N1p0wIpHvh1tD6sETwT7BTdz0WRPRPsCqrr2zpMPKqDV1xfrUsmW9Ehjm8LiEomiNDW6T6Dh3LDlcuNDZM0MxfWDmciWaoYnhzORC5rSC+4u6KlVki7YursVIqu5XY9S2d7fbVqiFDo7P4OkXb3F1Jnmxqs0Bv27L03XDk7cMM77/Mwltv1nJxtaWirZhg521uIp9P7H9w9ssKYmmHl7JhGsTF1efqkNmxzd9DWb8WoGDq9UkMUWtOds31FDyPyGeKHy1nYdRifMsHW6SzsSCQzKJeXML54vty2d7cr/Ibhu63DgaAXh6pY8nCKUQceZGHQ3wVrpgWX/uwC481EZUwr9xuZH1hyHDmeSo9uLJ4RON/u9l96YXvw4krtGIo5O1RVlnPs6V2p4Hwp3MW77AAAAAAAWEYfZwbjpAdjQqjwanzBKE4OZRuHdZru07QOo8X2GHDiyxiR8k0zNdfeR9sPk6GBBJHxp8/Gezkiydt6Qu+6mNB+JIYmM6JcSoinfln62e1hOJZk0iMD4aeZCRtZyH4ZTa2XUtlnwy1HlhyUdoDqwsSk+wWGVCgeakHodNC//GzekCtuw15YaF/8Mm3IVM8KXKlzzRvOhg1F/qQBfcBR73alWUOqeDTwFr23PIwakuNfBBFa61Q0afhXQb1XIAwaUoVT8o846mtuzBmKzd8FEdK352XMEJO95K88Rd8tD2OG/xRPBT5C2+a6KcO4nCeI0EFTOTVluFO7BfCEk6ZyaspQA5oiz1hsWOvp9y021JSJNhvqqYk2G+ppTq021HLs02pDLUd3rTZERw1tjd2GOoqp3YY6giLabajjbqflhuX8ivgyw3oXL5fx7pdLbxoq4ksMw22WJLjfsMEJqRa/mBpruNv5AsPlRzLcOxOEl8qOGnpE44Zhju/GXhQrfx7MHriZNtxObyclqksA869cGTb8fFSPnkfF+WF+Y2rW8PNxU4i3Sv/C/LAjRg2bZ+2EStARhBazuwuThuHTMRfLVQznd4gmDSV33rDK1vD8C7oGDZey3lolE+dfnDNoKN16ULksP39QY85Q/r8vFDpFmw3lPRkTbhsqnONSuGhtsWGoMGZW+HGLDVWiFChURIsNVZbk2cFlQ6X70fLL8hYbKk1duXQqbK+hWuAlLF22sddQ7Qq4vLuw11AtZfJxm72GkVLK5MHGLDZUmvUQ6dFMMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMNRtSLehhNNUWqWfLZSiPdBW9usaQvD072k850+fKYazkP66w08RAwAAuIMXz/k+huVB5rlhFmiKGG0roggazU+aWAZtgnj2wNVqcBzoCHFqMTwNZPG23IZtUKAUJsZZaNsZ7n0upnzfGep6YcBGRIF6Q33PmVgHr8+GqPS1JtI+ylRvuPLlDcwRjK6+DFHkZznl58gvZ0O09nE5h6zRjyGq/KuK1wfBvgxR5pvi96N8V0NU+VVQyfeTbt+GaG3iEdM3wfga3RuiiPpSUikdxM8aGKJVaea93RcjeDl8DmxoeH5v1/Hen1Fe3IbpuzVEaN9uOKaCuefJ+jfZ+aZNR0Zjw440bopMw9MfLybPiiYe63X8B12BcdmLsGMEAAAAAElFTkSuQmCC"
+                    alt="logo">
+            </div>
+            <div class="search">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="option">
+                <div class="items"><span class="material-symbols-outlined" id="home">
+                        home
+                    </span>Home</div>
+                <div class="items"><span class="material-symbols-outlined">
+                        supervisor_account
+                    </span>My Network</div>
+                <div class="items"><span class="material-symbols-outlined">
+                        work
+                    </span>Job</div>
+                <div class="items"><span class="material-symbols-outlined">
+                        sms
+                    </span>Messaging</div>
+                <div class="items"><span class="material-symbols-outlined">
+                        notifications
+                    </span>Notification</div>
+            </div>
+            <div id="profile">
+                <img src="https://cdn.pixabay.com/photo/2024/02/25/10/11/forsythia-8595521_1280.jpg" alt="">
+                <div class="l">Me<span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+            <div class="right">
+                <span class="material-symbols-outlined">
+                    apps
+                </span>
+                <div class="main">
+                    For Business
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+            <div class="try">
+                <span><u>Try Premium For <br>₹0</u></span>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="left-section">
+                <div class="top">
+                    <div class="banner">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/21/18/31/horse-8648282_640.jpg" alt="banner">
+                    </div>
+                    <div class="profile">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/25/06/58/forsythia-8654313_640.jpg"
+                            alt="profile-image">
+                    </div>
+
+                    <div class="Name">
+                        <p>Nature</p>
+                    </div>
+                    <div class="About">
+                        <p>Evergreen | Riverbank | Green Field</p>
+                    </div>
+                </div>
+                <div class="mid">
+                    <p>Connections <br><span>Connect with alumni</span></p>
+                    <p id="i">12</p>
+                </div>
+                <div class="middle">
+                    <div class="b1">Customize your profile with Premium Business</div>
+                    <div class="b2">
+                        <div class="box"></div>Try for ₹0
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span class="material-symbols-outlined">
+                        bookmark
+                    </span>
+                    My items
+                </div>
+            </div>
+
+            <div class="middle-section">
+                <div class="head">
+                    <div class="is">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/25/06/58/forsythia-8654313_640.jpg" alt="">
+                        <button>
+                            Start a post
+                            <!-- <pre>Start a post                                                                                           </pre> -->
+                        </button>
+                    </div>
+                    <div class="icn">
+                        <div class="items"><span class="material-symbols-outlined" id="a">
+                                perm_media
+                            </span>Media</div>
+                        <div class="items"><span class="material-symbols-outlined" id="b">
+                                calendar_month
+                            </span>Event</div>
+                        <div class="items"><span class="material-symbols-outlined" id="c">
+                                article
+                            </span>Write article</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <hr>
+                    <div class="items">Sort by:</div>
+                    <div class="items" id="d">Top <span class="material-symbols-outlined">
+                            expand_more
+                        </span></div>
+                </div>
+                <div class="post">
+                    <div class="heads">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/08/12/05/building-8620771_640.jpg" alt="">
+                        <div class="items">
+                            <p id="x">Falana . 3rd+</p>
+                            <p>Driven Btech Graduation Specializing</p>
+                            <p>3d . Edited</p>
+                        </div>
+                        <div class="items" id="v"><b>+ Follow</b></div>
+                    </div>
+                    <div class="image">
+                        <p>Get the flexibility you need to build your next great app.</p><img
+                            src="https://media.licdn.com/dms/image/sync/D4E18AQGyikoCIGSXYw/companyUpdate-article-image-shrink_627_1200/0/1668701232946/AZRDIR_LI-PAYG-Gen-Black-C1_ZAF_1200x1200_LIA_AZR-Direct_EN_Trial_Standard_SBAN_SINU_Illustration_Questionpng?e=1714608000&v=beta&t=gz2GrmkCm0Sj2PcgS5gfg4oh7r0lCAyXfwhIQHOkLYU"
+                            alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="items"><span class="material-symbols-outlined">
+                                thumb_up
+                            </span>Like</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                chat
+                            </span>Comment</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                cached
+                            </span>Repost</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                send
+                            </span>Send</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="heads">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/08/12/05/building-8620771_640.jpg" alt="">
+                        <div class="items">
+                            <p id="x">Falana . 3rd+</p>
+                            <p>Driven Btech Graduation Specializing</p>
+                            <p>3d . Edited</p>
+                        </div>
+                        <div class="items" id="v"><b>+Follow</b></div>
+                    </div>
+                    <div class="image">
+                        <p>Get the flexibility you need to build your next great app.</p><img
+                            src="https://media.licdn.com/dms/image/sync/D4E18AQGyikoCIGSXYw/companyUpdate-article-image-shrink_627_1200/0/1668701232946/AZRDIR_LI-PAYG-Gen-Black-C1_ZAF_1200x1200_LIA_AZR-Direct_EN_Trial_Standard_SBAN_SINU_Illustration_Questionpng?e=1714608000&v=beta&t=gz2GrmkCm0Sj2PcgS5gfg4oh7r0lCAyXfwhIQHOkLYU"
+                            alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="items"><span class="material-symbols-outlined">
+                                thumb_up
+                            </span>Like</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                chat
+                            </span>Comment</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                cached
+                            </span>Repost</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                send
+                            </span>Send</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="heads">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/08/12/05/building-8620771_640.jpg" alt="">
+                        <div class="items">
+                            <p id="x">Falana . 3rd+</p>
+                            <p>Driven Btech Graduation Specializing</p>
+                            <p>3d . Edited</p>
+                        </div>
+                        <div class="items" id="v"><b>+Follow</b></div>
+                    </div>
+                    <div class="image">
+                        <p>Get the flexibility you need to build your next great app.</p><img
+                            src="https://media.licdn.com/dms/image/sync/D4E18AQGyikoCIGSXYw/companyUpdate-article-image-shrink_627_1200/0/1668701232946/AZRDIR_LI-PAYG-Gen-Black-C1_ZAF_1200x1200_LIA_AZR-Direct_EN_Trial_Standard_SBAN_SINU_Illustration_Questionpng?e=1714608000&v=beta&t=gz2GrmkCm0Sj2PcgS5gfg4oh7r0lCAyXfwhIQHOkLYU"
+                            alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="items"><span class="material-symbols-outlined">
+                                thumb_up
+                            </span>Like</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                chat
+                            </span>Comment</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                cached
+                            </span>Repost</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                send
+                            </span>Send</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="heads">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/08/12/05/building-8620771_640.jpg" alt="">
+                        <div class="items">
+                            <p id="x">Falana . 3rd+</p>
+                            <p>Driven Btech Graduation Specializing</p>
+                            <p>3d . Edited</p>
+                        </div>
+                        <div class="items" id="v"><b>+Follow</b></div>
+                    </div>
+                    <div class="image">
+                        <p>Get the flexibility you need to build your next great app.</p><img
+                            src="https://media.licdn.com/dms/image/sync/D4E18AQGyikoCIGSXYw/companyUpdate-article-image-shrink_627_1200/0/1668701232946/AZRDIR_LI-PAYG-Gen-Black-C1_ZAF_1200x1200_LIA_AZR-Direct_EN_Trial_Standard_SBAN_SINU_Illustration_Questionpng?e=1714608000&v=beta&t=gz2GrmkCm0Sj2PcgS5gfg4oh7r0lCAyXfwhIQHOkLYU"
+                            alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="items"><span class="material-symbols-outlined">
+                                thumb_up
+                            </span>Like</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                chat
+                            </span>Comment</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                cached
+                            </span>Repost</div>
+                        <div class="items"><span class="material-symbols-outlined">
+                                send
+                            </span>Send</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="news">
+                    <div class="head">
+                        <b>LikedIn News</b>
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                    </div>
+                    <div class="cnt"><span class="material-symbols-outlined">
+                            fiber_manual_record
+                        </span>
+                        <div class="text">
+                            <b>NBFCs woo banking CXOs</b> <br>
+                            <p>9d ago</p>
+                        </div>
+                    </div>
+                    <div class="cnt"><span class="material-symbols-outlined">
+                            fiber_manual_record
+                        </span>
+                        <div class="text">
+                            <b>Women Freshers Land More Jobs</b> <br>
+                            <p>1d ago</p>
+                        </div>
+                    </div>
+                    <div class="cnt"><span class="material-symbols-outlined">
+                            fiber_manual_record
+                        </span>
+                        <div class="text">
+                            <b>Startup funding trends for 2021 </b><br>
+                            <p>6d ago</p>
+                        </div>
+                    </div>
+                    <div class="cnt"><span class="material-symbols-outlined">
+                            fiber_manual_record
+                        </span>
+                        <div class="text">
+                            <b>Green courses are in at college </b<br>
+                                <p>2d ago</p>
+                        </div>
+                    </div>
+                    <div class="cnt"><span class="material-symbols-outlined">
+                            fiber_manual_record
+                        </span>
+                        <div class="text">
+                            <b>How to set work life boundaries </b><br>
+                            <p>3d ago</p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button>Show more</button>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                </div>
+                <div class="btm">
+                    <div class="abt">
+                        <div class="had">
+                            Ad<span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                        <p>You've got the skills, we've got the opportunities</p>
+                        <div class="ige">
+                            <img id="q" src="https://cdn.pixabay.com/photo/2024/03/25/06/58/forsythia-8654313_640.jpg"
+                                alt="">
+                            <img src="https://media.licdn.com/dms/image/C560BAQFjHNUub2MPHA/company-logo_100_100/0/1631328654457?e=1720051200&v=beta&t=nABHmkYGRiyoMJ_0EU9-LMLPswUkVKb7_EOQqmB00oI"
+                                alt="">
+                        </div>
+                        <p id="r">Nature, <b>aramco</b> is hiring!</p>
+                        <div class="btn">
+                            <button><b>Follow</b></button>
+                        </div>
+                    </div>
+                    <div class="botom">
+                        <div class="it">
+                            <p>About</p>
+                            <p>Accessibility</p>
+                            <p>Help Center</p>
+                        </div>
+                        <div class="it">
+                            <p>Privacy & Terms<span class="material-symbols-outlined">
+                                    expand_more
+                                </span></p>
+                            <p>Ad Choices</p>
+                        </div>
+                        <div class="it">
+                            <p>Advertising</p>
+                            <p>Business Services<span class="material-symbols-outlined">
+                                    expand_more
+                                </span></p>
+                        </div>
+                        <div class="it">
+                            <p>Get the linkedin app</p>
+                            <p>More</p>
+                        </div>
+                        <div class="itm">
+                            <p><b id="e">Linked<b id="t">in</b></b>Linkedin Corporation &copy; 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fix">
+            <img src="https://cdn.pixabay.com/photo/2024/03/25/06/58/forsythia-8654313_640.jpg" alt="">
+            <b>Messaging</b>
+            <div class="rgt"><span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <span class="material-symbols-outlined">
+                edit_square
+            </span>
+            <span class="material-symbols-outlined">
+                expand_less
+            </span></div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

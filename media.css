@@ -1,0 +1,102 @@
+@media  screen and (max-width:768px) {
+    .right-section{
+        display: none;
+    }
+    .nav{
+        width: 768px;
+    }
+    .nav .img img{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .nav .search{
+        background-color: white;
+    }
+    .nav .search input{
+        display: none;
+    }
+    .nav .option{
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .nav .option .items{
+        font-size: 0px;
+        padding: 0px 21px;
+    }
+    #profile{
+        margin-left: 20px;
+        padding: 0px 50px 0px 0px;
+    }
+    #profile img{
+        height: 25px;
+        width: 25px;
+    }
+    #profile .l{
+        display: none;
+        padding: 10px;
+    }
+    .nav .right .main{
+        display: none;
+        padding: 15px;
+    }
+    .nav .right span{
+        margin-left: 10px;
+    }
+    .nav .try{
+        margin-left: 30px;
+    }
+
+    .main .left-section{
+        /* margin-left: -170px; */
+        width: 29%;
+        height: 54vh;
+    }
+    .main .middle-section{
+        width: 62%;
+    }
+    .main .middle-section .head .is img{
+        height: 40px;
+        width: 40px;
+    }
+    .main .middle-section .head .is button{
+        padding: 10px 300px 10px 10px;
+    }
+    .main .middle-section .head .icn{
+        margin-top: 5px;
+    }
+    .main .middle-section .head .icn .items{
+        padding: 10px;
+    }
+    .main .middle-section .head{
+        height: 110px;
+        box-sizing: border-box;
+    }
+    .line hr{
+        width: 80%;
+    }
+    .post .heads img{
+        height: 40px;
+        width: 40px;
+    }
+    #v{
+        margin-left: 140px;
+        font-size: 0.8rem;
+    }
+    .post{
+        height: 590px;
+    }
+    .post .bottom .items{
+        margin-top: 3px;
+        padding: 7.5px;
+    }
+    .post .image p{
+
+    }
+    .post .image img{
+        height: 450px;
+    }
+    .fix{
+        display: none;
+    }
+}
