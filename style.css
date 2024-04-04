@@ -62,6 +62,9 @@ body{
     flex-wrap: wrap;
     color:#666666;
 }
+#unq{
+    display: none;
+}
 .nav .option .items{
     display: flex;
     flex-direction: column;
